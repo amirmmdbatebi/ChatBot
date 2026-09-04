@@ -1,4 +1,0 @@
-OPENAI_API_KEY=sk-HpS4NnEuGF3lGOqaedJ6vpT3OJCt2OgpopiRHwvlBbA25kO7
-OPENAI_MODEL=gpt-3.5-turbo
-SYSTEM_PROMPT=تو یک دستیار مفید و دوستانه هستی.
-CHAT_TEMPERATURE=0.7
