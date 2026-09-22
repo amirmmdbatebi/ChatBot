@@ -1,6 +1,9 @@
+import os
+from dotenv import load_dotenv
+load_dotenv()
 """Application configuration."""
 
-API_KEY = "sk-HpS4NnEuGF3lGOqaedJ6vpT3OJCt2OgpopiRHwvlBbA25kO7"
+API_KEY = os.getenv("API_KEY")
 BASE_URL = "https://apihub.agnes-ai.com/v1"
 MODEL = "agnes-2.5-flash"
 
