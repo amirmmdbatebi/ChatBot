@@ -1,7 +1,7 @@
 """User State Manager: stores and retrieves each user's conversation state."""
+from service.user_state.base import UserStateManager
 
-
-class UserStateManager:
+class InMemoryUserStateManager(UserStateManager):
     def __init__(self, system_prompt: str) -> None:
         self._system_prompt = system_prompt
         self._states: dict[str, list[dict]] = {}

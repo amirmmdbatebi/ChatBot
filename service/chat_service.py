@@ -3,7 +3,7 @@ from service.llm.prompt_builder import build_prompt
 from service.llm.fetch import LLMFetcher
 from service.llm.post_process import LLMPostProcessor
 from service.platform_manager.base import PlatformManager
-from service.user_state.manager import UserStateManager
+from service.user_state.base import UserStateManager
 
 
 class ChatService:
