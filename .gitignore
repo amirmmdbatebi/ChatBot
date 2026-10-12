@@ -1,4 +1,14 @@
-__pycache__
-**/__pycache__
-**/**/__pycache__
-.*
+# Environment variables and secrets
+.env
+.env.*
+
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
