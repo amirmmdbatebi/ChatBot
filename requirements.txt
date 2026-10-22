@@ -1,9 +1,5 @@
-<<<<<<< Updated upstream
-openai>=1.0.0
-=======
+
 openai>=1.0.0
 python-dotenv>=1.0.0
 pymupdf4llm
 mammoth
-python-dotenv
->>>>>>> Stashed changes
