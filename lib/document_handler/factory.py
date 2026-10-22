@@ -1,8 +1,8 @@
 import os
 
-from service.document.base import DocumentConverter
-from service.document.docx import DocxConverter
-from service.document.pdf import PdfConverter
+from .base import DocumentConverter
+from .docx import DocxConverter
+from .pdf import PdfConverter
 
 
 def get_converter(file_path: str) -> DocumentConverter:

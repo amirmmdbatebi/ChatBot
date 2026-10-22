@@ -1,4 +1,4 @@
-from service.document.base import DocumentConverter
+from .base import DocumentConverter
 import mammoth
 
 
